@@ -17,7 +17,7 @@ p{
 
 ul{padding: 0;}
 a{color: #ea9312}
-a:hover{color: #c3c3c3; text-decoration: none;}
+a:hover{color: #f5f2f2; text-decoration: none;}
 
 #services{text-align: center;}
 .col-md-4, .col-md-6{padding-top: 50px;}
@@ -89,15 +89,16 @@ hr.separetor{
 
 .flagsitems{
     padding-top: 20px;
-    background: #efefef;
+    background: white;
     text-align: center;
     width: 100%;
     border-radius: 10px;
     overflow: hidden;
     color: #ea9312;
+}
 
-    
-    
+.diplome{
+    background-color: white;
 }
 
 .projet video{
@@ -175,6 +176,14 @@ hr.separetor{
 #shotsByPlayerId img:hover{
     opacity: .5;
     overflow: hidden;
+}
+
+#langues{
+    background-color: white;
+}
+
+#projet{
+    background-color: white;
 }
 
 #shotsByPlayerId a:hover{color: #ea9312;}
