@@ -63,10 +63,14 @@ hr.separetor{
     color: #fff;
     text-align: center;
     background: url(rkj8fuui.png)no-repeat;
-    max-height: 500px;
+    max-height: auto;
     overflow: hidden;
     background-size: cover;
 }
+
+/* .brandname {
+    text-align: left;
+} */
 
 #hero h2{
     font-size: 60px;
@@ -83,15 +87,13 @@ hr.separetor{
 }
 
 
-.col-md-6-myphoto{
-    float: right;
-}
-
 .flagsitems{
     padding-top: 20px;
     background: white;
     text-align: center;
-    width: 100%;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
     border-radius: 10px;
     overflow: hidden;
     color: #ea9312;
@@ -171,6 +173,7 @@ hr.separetor{
     height: 50%;
     border-radius: 5px;
     margin: 15px;
+    float: none;
 }
 
 #shotsByPlayerId img:hover{
@@ -243,6 +246,9 @@ blockquote p{
     margin-bottom: 2px; 
 }
 
+.container {
+    width: auto;
+}
 .contact-form input,
 .contact-form textarea {
     border: none;
@@ -264,15 +270,16 @@ blockquote p{
     resize: none;
 }
 
+
 .contact-form input {
-    width: 100%;
+    width: 95%; /*nom,prénom..*/
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 .contact-form textarea {
-    width: 100%;
+    width: 95%; /*message*/
     resize: vertical;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
