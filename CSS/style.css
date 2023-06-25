@@ -15,9 +15,10 @@ p{
     color: #c3c3c3;
 }
 
+
 ul{padding: 0;}
-a{color: #ea9312}
-a:hover{color: #8787877a; text-decoration: none;}
+a{color: #7312ea}
+a:hover{color: #8787874d; text-decoration: none;}
 
 #services{text-align: center;}
 .col-md-4, .col-md-6{padding-top: 50px;}
@@ -39,8 +40,8 @@ a:hover{color: #8787877a; text-decoration: none;}
 
 hr.separetor{
     width: 80px;
-    color: #363942;
-    border-top: 2px solid #ea9312;
+    color: #000000;
+    border-top: 2px solid #9712ea;
 }
 
 
@@ -55,7 +56,10 @@ hr.separetor{
 
 .btn-default:hover{
     background: none;
-    color: #ea9312;
+    color: #9712ea;
+}
+.navbarnavbar-inversenavbar-fixed-top {
+    color:#9712ea;
 }
 
 
@@ -91,10 +95,10 @@ hr.separetor{
     padding-top: 20px;
     background: white;
     text-align: center;
-    width: 100%;
+    width: 90%;
     border-radius: 10px;
     overflow: hidden;
-    color: #ea9312;
+    color: #9e12ea;
 }
 
 .diplome{
@@ -109,7 +113,7 @@ hr.separetor{
     width: 100%;
     border-radius: 10px;
     overflow: hidden;
-    color: #ea9312;
+    color: #9b12ea;
 }
 
 
@@ -189,7 +193,7 @@ hr.separetor{
     background-color: white;
 }
 
-#shotsByPlayerId a:hover{color: #ea9312;}
+#shotsByPlayerId a:hover{color: #9712ea;}
 
 #shotsByPlayerId h3{
     text-align: left;
@@ -257,8 +261,8 @@ blockquote p{
     -moz-box-shadow: none;
     box-shadow: none;
     
-    background: #26292E;
-    color: #FFFFFF;
+    background: #fafafa;
+    color: #000000;
     font-size: 16px;
     height: auto;
     padding: 15px;
@@ -330,5 +334,5 @@ footer p, footer .bigicon {color: #32cd32;}
 }
 
 .footersocial li a {color: #32cd32;}
-.footersocial li a:hover {color: #ea9312;}
+.footersocial li a:hover {color: #a612ea;}
 
